@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "wrangler": "^4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "workerd"]
   }
 }
